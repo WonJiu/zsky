@@ -80,7 +80,7 @@ systemctl enable gunicorn
 nohup python simdht_worker.py >/root/zsky/spider.log 2>&1& 
 #编译sphinx,启动索引,启动搜索进程
 apt-get -y install git gcc cmake automake g++ mysql-devel
-git clone https://github.com/wenguonideshou/sphinx-jieba.git
+git clone https://git.oschina.net/strwei/sphinx-jieba.git
 cd sphinx-jieba
 git submodule update --init --recursive
 ./configure --prefix=/usr/local/sphinx-jieba
