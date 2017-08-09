@@ -11,7 +11,13 @@ ubuntu或debian执行
 ```Bash
 apt-get -y install git 
 
+国外 
+
 git  clone https://github.com/istrwei/zsky.git
+
+国内 
+
+git  clone https://git.oschina.net/strwei/zsky.git
 
 cd zsky&&sh ubuntuORdebian.sh
 ```
